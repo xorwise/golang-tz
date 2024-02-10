@@ -11,6 +11,7 @@
 Приложение написано с использованием **Clean Architecture**.
 
 ## Порядок запуска
+- Перед запуском убедитесь, что у вас запущен MongoDB.
 - Клонируем репозиторий: `git clone https://github.com/xorwise/golang-tz.git`
 - Запускаем приложение в из папки bin. (Для Windows: `./bin/test.exe`, для Linux: `./bin/test`)
 
