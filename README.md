@@ -1,8 +1,10 @@
-# Тестовое задание на должность Golang-Junior разработчика.
+# Тестовое задание на должность Golang-Junior разработчика
 
 В данном тестовом задании реализован весь необходимый функционал, который включает в себя два REST-маршрута:
 - `GET /api/login/{GUID}` - который возвращает пару access_token и refresh_token
 - `POST /api/refresh` - который обновляет access_token по refresh_token, в теле запроса передается refresh_token
+
+Программа написана с использованием версии ***Golang 1.22***
 
 Из сторонних библиотек используются `github.com/golang-jwt/jwt` и `go.mongodb.org/mongo-driver`
 
